@@ -18,10 +18,10 @@ let g:colors_name = 'wal'
 " set t_Co=16
 hi Normal ctermbg=NONE ctermfg=7
 hi NonText ctermbg=NONE ctermfg=0
-hi Comment ctermbg=NONE ctermfg=8
+hi Comment ctermbg=NONE ctermfg=8 cterm=ITALIC
 hi Constant ctermbg=NONE ctermfg=3
 hi Error ctermbg=1 ctermfg=7
-hi Identifier ctermbg=NONE ctermfg=1 cterm=BOLD
+hi Identifier ctermbg=NONE ctermfg=1 cterm=bold
 hi Ignore ctermbg=8 ctermfg=0
 hi PreProc ctermbg=NONE ctermfg=3
 hi Special ctermbg=NONE ctermfg=6
@@ -91,7 +91,7 @@ hi Repeat ctermbg=NONE ctermfg=3
 hi SpecialChar ctermbg=NONE ctermfg=5
 hi Tag ctermbg=NONE ctermfg=3
 hi Typedef ctermbg=NONE ctermfg=3
-hi vimUserCommand ctermbg=NONE ctermfg=1 cterm=BOLD
+hi vimUserCommand ctermbg=NONE ctermfg=1 cterm=bold
     hi link vimMap vimUserCommand
     hi link vimLet vimUserCommand
     hi link vimCommand vimUserCommand
@@ -103,11 +103,11 @@ hi vimMapModKey ctermbg=NONE ctermfg=4
 hi vimBracket ctermbg=NONE ctermfg=7
 hi vimCommentString ctermbg=NONE ctermfg=8
 hi htmlLink ctermbg=NONE ctermfg=1 cterm=underline
-hi htmlBold ctermbg=NONE ctermfg=3 cterm=BOLD
+hi htmlBold ctermbg=NONE ctermfg=3 cterm=bold
 hi htmlItalic ctermbg=NONE ctermfg=5
 hi htmlEndTag ctermbg=NONE ctermfg=7
 hi htmlTag ctermbg=NONE ctermfg=7
-hi htmlTagName ctermbg=NONE ctermfg=1 cterm=BOLD
+hi htmlTagName ctermbg=NONE ctermfg=1 cterm=bold
 hi htmlH1 ctermbg=NONE ctermfg=7
     hi link htmlH2 htmlH1
     hi link htmlH3 htmlH1
